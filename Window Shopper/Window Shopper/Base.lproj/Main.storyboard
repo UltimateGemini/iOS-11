@@ -8,6 +8,12 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Light</string>
+            <string>Avenir-Medium</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--MainVC-->
         <scene sceneID="tne-QT-ifu">
@@ -49,26 +55,67 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" enablesReturnKeyAutomatically="YES"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jK-ij-kDO">
+                                <rect key="frame" x="36" y="300" width="303" height="61.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQC-LE-Cei">
+                                <rect key="frame" x="143" y="366.5" width="89" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="89" id="RHB-AD-L3d"/>
+                                    <constraint firstAttribute="height" constant="28" id="nQb-bg-ceW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="30n-Xa-gIN">
+                                <rect key="frame" x="36" y="617" width="303" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="dfa-Yt-ZOp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="Clear Calculator">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clearCalcPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hG4-DB-nVO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="30n-Xa-gIN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1hz-gZ-P9m"/>
+                            <constraint firstItem="4jK-ij-kDO" firstAttribute="top" secondItem="QDJ-dr-KEO" secondAttribute="bottom" constant="45" id="4F5-v6-3Vn"/>
                             <constraint firstAttribute="trailingMargin" secondItem="e2X-Sf-nHs" secondAttribute="trailing" constant="20" id="4wG-Cl-0ye"/>
                             <constraint firstItem="e2X-Sf-nHs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="7jq-NK-EwF"/>
                             <constraint firstItem="QDJ-dr-KEO" firstAttribute="leading" secondItem="e2X-Sf-nHs" secondAttribute="leading" id="FIR-mt-Z1A"/>
                             <constraint firstItem="NKL-Z0-pd0" firstAttribute="top" secondItem="NFc-bi-hKr" secondAttribute="bottom" id="ITM-U3-aTv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="30n-Xa-gIN" secondAttribute="trailing" constant="20" id="KGK-yB-BbT"/>
+                            <constraint firstItem="4jK-ij-kDO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nz5-ou-Ce3"/>
                             <constraint firstItem="e2X-Sf-nHs" firstAttribute="top" secondItem="B0g-b2-pug" secondAttribute="bottom" constant="35" id="PbM-GG-E4I"/>
                             <constraint firstItem="B0g-b2-pug" firstAttribute="top" secondItem="4MD-o9-prp" secondAttribute="bottom" constant="35" id="RYY-1e-cK5"/>
                             <constraint firstAttribute="trailing" secondItem="NFc-bi-hKr" secondAttribute="trailing" id="Vkq-iW-53G"/>
+                            <constraint firstItem="pQC-LE-Cei" firstAttribute="top" secondItem="4jK-ij-kDO" secondAttribute="bottom" constant="5" id="Zya-BX-PDP"/>
                             <constraint firstItem="NFc-bi-hKr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="aQ6-1m-Uy2"/>
                             <constraint firstItem="QDJ-dr-KEO" firstAttribute="trailing" secondItem="e2X-Sf-nHs" secondAttribute="trailing" id="aWu-PA-gdZ"/>
                             <constraint firstItem="NFc-bi-hKr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bP1-qR-0sp"/>
+                            <constraint firstItem="30n-Xa-gIN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="cGU-xk-6of"/>
                             <constraint firstItem="QDJ-dr-KEO" firstAttribute="top" secondItem="e2X-Sf-nHs" secondAttribute="bottom" constant="25" id="g7u-if-KqN"/>
+                            <constraint firstItem="pQC-LE-Cei" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hYn-Ve-Y48"/>
+                            <constraint firstItem="pQC-LE-Cei" firstAttribute="centerX" secondItem="4jK-ij-kDO" secondAttribute="centerX" id="il7-N2-GeG"/>
+                            <constraint firstItem="4jK-ij-kDO" firstAttribute="width" secondItem="QDJ-dr-KEO" secondAttribute="width" id="kAV-sl-YM4"/>
+                            <constraint firstItem="NKL-Z0-pd0" firstAttribute="top" secondItem="30n-Xa-gIN" secondAttribute="bottom" constant="20" id="lSS-GJ-c3w"/>
                             <constraint firstItem="B0g-b2-pug" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mCP-By-Ugf"/>
                             <constraint firstItem="QDJ-dr-KEO" firstAttribute="height" secondItem="e2X-Sf-nHs" secondAttribute="height" id="yhL-bm-5Rf"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="hoursLbl" destination="pQC-LE-Cei" id="SuB-T2-q1M"/>
                         <outlet property="priceTxt" destination="QDJ-dr-KEO" id="mxm-SB-2IC"/>
+                        <outlet property="resultLbl" destination="4jK-ij-kDO" id="b0f-my-kLh"/>
                         <outlet property="wageTxt" destination="e2X-Sf-nHs" id="LAW-bx-PwT"/>
                     </connections>
                 </viewController>

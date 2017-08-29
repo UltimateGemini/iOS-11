@@ -13,6 +13,8 @@
 		E81DB6E41F54A2CC00FFA9CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E81DB6E31F54A2CC00FFA9CF /* Assets.xcassets */; };
 		E81DB6E71F54A2CC00FFA9CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81DB6E51F54A2CC00FFA9CF /* LaunchScreen.storyboard */; };
 		E8C2644E1F55B25900C99530 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C2644D1F55B25900C99530 /* CategoryCell.swift */; };
+		E8C264501F55B84000C99530 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C2644F1F55B84000C99530 /* Category.swift */; };
+		E8C264531F55BD9E00C99530 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C264521F55BD9E00C99530 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E81DB6E61F54A2CC00FFA9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E81DB6E81F54A2CC00FFA9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8C2644D1F55B25900C99530 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		E8C2644F1F55B84000C99530 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E8C264521F55BD9E00C99530 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		E81DB6DB1F54A2CC00FFA9CF /* Coder Swag */ = {
 			isa = PBXGroup;
 			children = (
+				E8C264511F55BD8300C99530 /* Services */,
 				E8C2644C1F55B20A00C99530 /* Model */,
 				E8C2644B1F55B20200C99530 /* View */,
 				E8C2644A1F55B1F900C99530 /* Controller */,
@@ -87,8 +92,17 @@
 		E8C2644C1F55B20A00C99530 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E8C2644F1F55B84000C99530 /* Category.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E8C264511F55BD8300C99530 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E8C264521F55BD9E00C99530 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +180,8 @@
 				E81DB6DF1F54A2CC00FFA9CF /* CategoriesVC.swift in Sources */,
 				E81DB6DD1F54A2CC00FFA9CF /* AppDelegate.swift in Sources */,
 				E8C2644E1F55B25900C99530 /* CategoryCell.swift in Sources */,
+				E8C264501F55B84000C99530 /* Category.swift in Sources */,
+				E8C264531F55BD9E00C99530 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

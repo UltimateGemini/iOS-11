@@ -33,22 +33,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zah-K7-OVu">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zah-K7-OVu">
                                 <rect key="frame" x="0.0" y="49.5" width="375" height="553.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="130" id="M2Q-rd-JyW" customClass="CategoryCell" customModule="Coder_Swag" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="130" id="M2Q-rd-JyW" customClass="CategoryCell" customModule="Coder_Swag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="M2Q-rd-JyW" id="0Bc-x2-4hu">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="129.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="Lta-PC-pCi">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="Lta-PC-pCi">
+                                                    <rect key="frame" x="0.0" y="3" width="375" height="124"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="124" id="wFu-DA-fVt"/>
+                                                    </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhr-8v-rvH">
-                                                    <rect key="frame" x="105" y="54" width="165" height="21"/>
+                                                    <rect key="frame" x="105" y="54.5" width="165" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="165" id="7Xm-zl-2CO"/>
                                                         <constraint firstAttribute="height" constant="21" id="mZN-xw-r1T"/>
@@ -59,17 +62,17 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Lta-PC-pCi" firstAttribute="top" secondItem="0Bc-x2-4hu" secondAttribute="top" id="1en-iz-ASV"/>
-                                                <constraint firstItem="Lta-PC-pCi" firstAttribute="leading" secondItem="0Bc-x2-4hu" secondAttribute="leading" id="7j2-cb-l5T"/>
+                                                <constraint firstItem="Lta-PC-pCi" firstAttribute="top" secondItem="0Bc-x2-4hu" secondAttribute="topMargin" constant="-5" id="5kx-CS-QvE"/>
                                                 <constraint firstItem="mhr-8v-rvH" firstAttribute="centerX" secondItem="0Bc-x2-4hu" secondAttribute="centerX" id="JpK-AF-7hQ"/>
                                                 <constraint firstItem="mhr-8v-rvH" firstAttribute="centerY" secondItem="0Bc-x2-4hu" secondAttribute="centerY" id="Pp7-OA-ENk"/>
-                                                <constraint firstAttribute="trailing" secondItem="Lta-PC-pCi" secondAttribute="trailing" id="dTj-za-Bes"/>
-                                                <constraint firstAttribute="bottom" secondItem="Lta-PC-pCi" secondAttribute="bottom" id="uxJ-7K-b9e"/>
+                                                <constraint firstItem="Lta-PC-pCi" firstAttribute="leading" secondItem="0Bc-x2-4hu" secondAttribute="leading" id="iZa-86-fni"/>
+                                                <constraint firstItem="Lta-PC-pCi" firstAttribute="centerY" secondItem="0Bc-x2-4hu" secondAttribute="centerY" id="mHK-nP-oNL"/>
+                                                <constraint firstItem="Lta-PC-pCi" firstAttribute="centerX" secondItem="mhr-8v-rvH" secondAttribute="centerX" id="zyV-oy-CEP"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="categoryImage" destination="Lta-PC-pCi" id="QdK-dx-LEW"/>
-                                            <outlet property="categoryTitle" destination="mhr-8v-rvH" id="Zj9-1d-9pN"/>
+                                            <outlet property="categoryImage" destination="Lta-PC-pCi" id="Wuk-4q-eai"/>
+                                            <outlet property="categoryTitle" destination="mhr-8v-rvH" id="sQq-EL-Q59"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -87,7 +90,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="CODER SWAG" id="JxU-6h-CE9"/>
                     <connections>
-                        <outlet property="categoryTable" destination="zah-K7-OVu" id="AyD-bs-AAx"/>
+                        <outlet property="categoryTable" destination="zah-K7-OVu" id="y7X-rx-eKA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

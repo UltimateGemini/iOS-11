@@ -8,10 +8,10 @@
 
 import Foundation
 
-typealias CompletionHandler = ( Success: Bool) -> ()
+typealias CompletionHandler = ( _ Success: Bool) -> ()
 
 //: URL Constants
-let BASE_UR = "https://talksmack.herokuapp.com/v1/"
+let BASE_URL = "https://talksmack.herokuapp.com/v1/"
 let URL_REGISTER = "\(BASE_URL)account/register"
 
 //: Segues

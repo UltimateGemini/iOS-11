@@ -19,6 +19,7 @@
 		E827F8031F57A6EC00DE260C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E827F8011F57A6EC00DE260C /* Main.storyboard */; };
 		E827F8051F57A6EC00DE260C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E827F8041F57A6EC00DE260C /* Assets.xcassets */; };
 		E827F8081F57A6EC00DE260C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E827F8061F57A6EC00DE260C /* LaunchScreen.storyboard */; };
+		E89ACB391F61F13900825EB1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89ACB381F61F13900825EB1 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		E827F8041F57A6EC00DE260C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E827F8071F57A6EC00DE260C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E827F8091F57A6EC00DE260C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E89ACB381F61F13900825EB1 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		E8B2D00F1F57B8F500F121DD /* Talk Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Talk Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		E8B2D0101F57B8F600F121DD /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		E8B2D0111F57B8F600F121DD /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		E827F7FC1F57A6EC00DE260C /* Talk Smack */ = {
 			isa = PBXGroup;
 			children = (
+				E89ACB371F61F12400825EB1 /* Services */,
 				E81BDF3C1F5891E50040D9D4 /* Utilities */,
 				E81BDF341F587DBC0040D9D4 /* Model */,
 				E81BDF331F587DB50040D9D4 /* View */,
@@ -138,6 +141,14 @@
 				E827F8091F57A6EC00DE260C /* Info.plist */,
 			);
 			path = "Talk Smack";
+			sourceTree = "<group>";
+		};
+		E89ACB371F61F12400825EB1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E89ACB381F61F13900825EB1 /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		E8B2D00E1F57B8B500F121DD /* Support Files */ = {
@@ -277,6 +288,7 @@
 				E81BDF361F587DEC0040D9D4 /* ChatVC.swift in Sources */,
 				E81BDF381F587DFB0040D9D4 /* ChannelVC.swift in Sources */,
 				E81BDF421F5898A20040D9D4 /* CreateAccountVC.swift in Sources */,
+				E89ACB391F61F13900825EB1 /* AuthService.swift in Sources */,
 				E81BDF3B1F5888FB0040D9D4 /* GradientView.swift in Sources */,
 				E827F7FE1F57A6EC00DE260C /* AppDelegate.swift in Sources */,
 				E81BDF391F5886010040D9D4 /* SWRevealViewController.m in Sources */,

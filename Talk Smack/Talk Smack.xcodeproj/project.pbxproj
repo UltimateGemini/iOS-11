@@ -11,6 +11,7 @@
 		E81B86BF1F6590D0009A76ED /* UserDataServcie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B86BE1F6590D0009A76ED /* UserDataServcie.swift */; };
 		E81B86C11F65A66D009A76ED /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B86C01F65A66D009A76ED /* AvatarPickerVC.swift */; };
 		E81B86C31F65A97A009A76ED /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B86C21F65A97A009A76ED /* AvatarCell.swift */; };
+		E81B86C51F65C4A7009A76ED /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B86C41F65C4A7009A76ED /* CircleImage.swift */; };
 		E81BDF361F587DEC0040D9D4 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81BDF351F587DEC0040D9D4 /* ChatVC.swift */; };
 		E81BDF381F587DFB0040D9D4 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81BDF371F587DFB0040D9D4 /* ChannelVC.swift */; };
 		E81BDF391F5886010040D9D4 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B2D0111F57B8F600F121DD /* SWRevealViewController.m */; };
@@ -33,6 +34,7 @@
 		E81B86BE1F6590D0009A76ED /* UserDataServcie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataServcie.swift; sourceTree = "<group>"; };
 		E81B86C01F65A66D009A76ED /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		E81B86C21F65A97A009A76ED /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		E81B86C41F65C4A7009A76ED /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		E81BDF351F587DEC0040D9D4 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		E81BDF371F587DFB0040D9D4 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		E81BDF3A1F5888FB0040D9D4 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				E81BDF3A1F5888FB0040D9D4 /* GradientView.swift */,
 				E89ACB3A1F61FBAA00825EB1 /* RoundedButton.swift */,
 				E81B86C21F65A97A009A76ED /* AvatarCell.swift */,
+				E81B86C41F65C4A7009A76ED /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				E81BDF361F587DEC0040D9D4 /* ChatVC.swift in Sources */,
 				E81B86C11F65A66D009A76ED /* AvatarPickerVC.swift in Sources */,
 				E89ACB3B1F61FBAA00825EB1 /* RoundedButton.swift in Sources */,
+				E81B86C51F65C4A7009A76ED /* CircleImage.swift in Sources */,
 				E81BDF381F587DFB0040D9D4 /* ChannelVC.swift in Sources */,
 				E81BDF421F5898A20040D9D4 /* CreateAccountVC.swift in Sources */,
 				E89ACB391F61F13900825EB1 /* AuthService.swift in Sources */,

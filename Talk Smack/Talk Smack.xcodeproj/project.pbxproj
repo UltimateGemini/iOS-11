@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B69904FA0A8D9DD6E924F792 /* Pods_Talk_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E9A567A16B385087584104 /* Pods_Talk_Smack.framework */; };
+		E802498E1F69DC3800F2E773 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E802498D1F69DC3800F2E773 /* ChannelCell.swift */; };
 		E81B86BF1F6590D0009A76ED /* UserDataServcie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B86BE1F6590D0009A76ED /* UserDataServcie.swift */; };
 		E81B86C11F65A66D009A76ED /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B86C01F65A66D009A76ED /* AvatarPickerVC.swift */; };
 		E81B86C31F65A97A009A76ED /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B86C21F65A97A009A76ED /* AvatarCell.swift */; };
@@ -35,6 +36,7 @@
 		0ECC5B338FD641C41DC0E09B /* Pods-Talk Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talk Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Talk Smack/Pods-Talk Smack.debug.xcconfig"; sourceTree = "<group>"; };
 		10E62703B62899A30A7061B7 /* Pods-Talk Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talk Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Talk Smack/Pods-Talk Smack.release.xcconfig"; sourceTree = "<group>"; };
 		C1E9A567A16B385087584104 /* Pods_Talk_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Talk_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E802498D1F69DC3800F2E773 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		E81B86BE1F6590D0009A76ED /* UserDataServcie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataServcie.swift; sourceTree = "<group>"; };
 		E81B86C01F65A66D009A76ED /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		E81B86C21F65A97A009A76ED /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				E89ACB3A1F61FBAA00825EB1 /* RoundedButton.swift */,
 				E81B86C21F65A97A009A76ED /* AvatarCell.swift */,
 				E81B86C41F65C4A7009A76ED /* CircleImage.swift */,
+				E802498D1F69DC3800F2E773 /* ChannelCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8AC623C1F68989200FFA86D /* ProfileVC.swift in Sources */,
+				E802498E1F69DC3800F2E773 /* ChannelCell.swift in Sources */,
 				E81BDF361F587DEC0040D9D4 /* ChatVC.swift in Sources */,
 				E81B86C11F65A66D009A76ED /* AvatarPickerVC.swift in Sources */,
 				E89ACB3B1F61FBAA00825EB1 /* RoundedButton.swift in Sources */,

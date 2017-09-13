@@ -140,7 +140,7 @@
                                 <rect key="frame" x="0.0" y="121" width="375" height="431"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="GyZ-z2-fuW">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="channelCell" id="GyZ-z2-fuW" customClass="ChannelCell" customModule="Talk_Smack" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GyZ-z2-fuW" id="JXh-CQ-S22">
@@ -160,6 +160,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="channelName" destination="5vB-WT-P3t" id="HyG-Dg-LxF"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -184,6 +187,7 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="OfR-bL-Fga" id="NnU-GF-lNS"/>
+                        <outlet property="tableView" destination="nUK-tL-Hye" id="nts-c0-v11"/>
                         <outlet property="userImg" destination="tnh-jH-HwW" id="i0z-2c-Ojo"/>
                         <segue destination="hbf-X3-T8A" kind="show" identifier="toLogin" id="aX3-6b-iau"/>
                     </connections>

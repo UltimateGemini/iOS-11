@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B69904FA0A8D9DD6E924F792 /* Pods_Talk_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E9A567A16B385087584104 /* Pods_Talk_Smack.framework */; };
 		E802498E1F69DC3800F2E773 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E802498D1F69DC3800F2E773 /* ChannelCell.swift */; };
+		E80249911F69E00600F2E773 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E802498F1F69E00600F2E773 /* AddChannelVC.swift */; };
+		E80249921F69E00600F2E773 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E80249901F69E00600F2E773 /* AddChannelVC.xib */; };
 		E81B86BF1F6590D0009A76ED /* UserDataServcie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B86BE1F6590D0009A76ED /* UserDataServcie.swift */; };
 		E81B86C11F65A66D009A76ED /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B86C01F65A66D009A76ED /* AvatarPickerVC.swift */; };
 		E81B86C31F65A97A009A76ED /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B86C21F65A97A009A76ED /* AvatarCell.swift */; };
@@ -37,6 +39,8 @@
 		10E62703B62899A30A7061B7 /* Pods-Talk Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talk Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Talk Smack/Pods-Talk Smack.release.xcconfig"; sourceTree = "<group>"; };
 		C1E9A567A16B385087584104 /* Pods_Talk_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Talk_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E802498D1F69DC3800F2E773 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		E802498F1F69E00600F2E773 /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
+		E80249901F69E00600F2E773 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		E81B86BE1F6590D0009A76ED /* UserDataServcie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataServcie.swift; sourceTree = "<group>"; };
 		E81B86C01F65A66D009A76ED /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		E81B86C21F65A97A009A76ED /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
@@ -102,6 +106,7 @@
 				E81BDF411F5898A20040D9D4 /* CreateAccountVC.swift */,
 				E81B86C01F65A66D009A76ED /* AvatarPickerVC.swift */,
 				E8AC623A1F68989200FFA86D /* ProfileVC.swift */,
+				E802498F1F69E00600F2E773 /* AddChannelVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 		E8AC623E1F6898A300FFA86D /* XIBs */ = {
 			isa = PBXGroup;
 			children = (
+				E80249901F69E00600F2E773 /* AddChannelVC.xib */,
 				E8AC623B1F68989200FFA86D /* ProfileVC.xib */,
 			);
 			path = XIBs;
@@ -262,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E80249921F69E00600F2E773 /* AddChannelVC.xib in Resources */,
 				E8AC623D1F68989200FFA86D /* ProfileVC.xib in Resources */,
 				E827F8081F57A6EC00DE260C /* LaunchScreen.storyboard in Resources */,
 				E827F8051F57A6EC00DE260C /* Assets.xcassets in Resources */,
@@ -337,6 +344,7 @@
 				E89ACB391F61F13900825EB1 /* AuthService.swift in Sources */,
 				E81B86BF1F6590D0009A76ED /* UserDataServcie.swift in Sources */,
 				E81BDF3B1F5888FB0040D9D4 /* GradientView.swift in Sources */,
+				E80249911F69E00600F2E773 /* AddChannelVC.swift in Sources */,
 				E827F7FE1F57A6EC00DE260C /* AppDelegate.swift in Sources */,
 				E81B86C31F65A97A009A76ED /* AvatarCell.swift in Sources */,
 				E81BDF391F5886010040D9D4 /* SWRevealViewController.m in Sources */,

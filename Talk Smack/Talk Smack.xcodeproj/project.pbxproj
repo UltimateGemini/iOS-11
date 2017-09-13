@@ -27,6 +27,8 @@
 		E89ACB3B1F61FBAA00825EB1 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89ACB3A1F61FBAA00825EB1 /* RoundedButton.swift */; };
 		E8AC623C1F68989200FFA86D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AC623A1F68989200FFA86D /* ProfileVC.swift */; };
 		E8AC623D1F68989200FFA86D /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8AC623B1F68989200FFA86D /* ProfileVC.xib */; };
+		E8EE46C21F69C6CB00E862BF /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EE46C11F69C6CB00E862BF /* MessageService.swift */; };
+		E8EE46C41F69C6EF00E862BF /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EE46C31F69C6EF00E862BF /* Channel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		E8B2D00F1F57B8F500F121DD /* Talk Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Talk Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		E8B2D0101F57B8F600F121DD /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		E8B2D0111F57B8F600F121DD /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		E8EE46C11F69C6CB00E862BF /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		E8EE46C31F69C6EF00E862BF /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 		E81BDF341F587DBC0040D9D4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E8EE46C31F69C6EF00E862BF /* Channel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			children = (
 				E89ACB381F61F13900825EB1 /* AuthService.swift */,
 				E81B86BE1F6590D0009A76ED /* UserDataServcie.swift */,
+				E8EE46C11F69C6CB00E862BF /* MessageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -319,7 +325,9 @@
 				E81BDF361F587DEC0040D9D4 /* ChatVC.swift in Sources */,
 				E81B86C11F65A66D009A76ED /* AvatarPickerVC.swift in Sources */,
 				E89ACB3B1F61FBAA00825EB1 /* RoundedButton.swift in Sources */,
+				E8EE46C41F69C6EF00E862BF /* Channel.swift in Sources */,
 				E81B86C51F65C4A7009A76ED /* CircleImage.swift in Sources */,
+				E8EE46C21F69C6CB00E862BF /* MessageService.swift in Sources */,
 				E81BDF381F587DFB0040D9D4 /* ChannelVC.swift in Sources */,
 				E81BDF421F5898A20040D9D4 /* CreateAccountVC.swift in Sources */,
 				E89ACB391F61F13900825EB1 /* AuthService.swift in Sources */,

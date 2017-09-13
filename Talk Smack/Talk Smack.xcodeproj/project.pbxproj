@@ -25,6 +25,8 @@
 		E827F8081F57A6EC00DE260C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E827F8061F57A6EC00DE260C /* LaunchScreen.storyboard */; };
 		E89ACB391F61F13900825EB1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89ACB381F61F13900825EB1 /* AuthService.swift */; };
 		E89ACB3B1F61FBAA00825EB1 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89ACB3A1F61FBAA00825EB1 /* RoundedButton.swift */; };
+		E8AC623C1F68989200FFA86D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AC623A1F68989200FFA86D /* ProfileVC.swift */; };
+		E8AC623D1F68989200FFA86D /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8AC623B1F68989200FFA86D /* ProfileVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		E827F8091F57A6EC00DE260C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E89ACB381F61F13900825EB1 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		E89ACB3A1F61FBAA00825EB1 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		E8AC623A1F68989200FFA86D /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		E8AC623B1F68989200FFA86D /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		E8B2D00F1F57B8F500F121DD /* Talk Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Talk Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		E8B2D0101F57B8F600F121DD /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		E8B2D0111F57B8F600F121DD /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 				E81BDF3F1F5896440040D9D4 /* LoginVC.swift */,
 				E81BDF411F5898A20040D9D4 /* CreateAccountVC.swift */,
 				E81B86C01F65A66D009A76ED /* AvatarPickerVC.swift */,
+				E8AC623A1F68989200FFA86D /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -142,8 +147,9 @@
 		E827F7FC1F57A6EC00DE260C /* Talk Smack */ = {
 			isa = PBXGroup;
 			children = (
-				E89ACB371F61F12400825EB1 /* Services */,
+				E8AC623E1F6898A300FFA86D /* XIBs */,
 				E81BDF3C1F5891E50040D9D4 /* Utilities */,
+				E89ACB371F61F12400825EB1 /* Services */,
 				E81BDF341F587DBC0040D9D4 /* Model */,
 				E81BDF331F587DB50040D9D4 /* View */,
 				E81BDF321F587DAC0040D9D4 /* Controller */,
@@ -164,6 +170,14 @@
 				E81B86BE1F6590D0009A76ED /* UserDataServcie.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		E8AC623E1F6898A300FFA86D /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				E8AC623B1F68989200FFA86D /* ProfileVC.xib */,
+			);
+			path = XIBs;
 			sourceTree = "<group>";
 		};
 		E8B2D00E1F57B8B500F121DD /* Support Files */ = {
@@ -239,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8AC623D1F68989200FFA86D /* ProfileVC.xib in Resources */,
 				E827F8081F57A6EC00DE260C /* LaunchScreen.storyboard in Resources */,
 				E827F8051F57A6EC00DE260C /* Assets.xcassets in Resources */,
 				E827F8031F57A6EC00DE260C /* Main.storyboard in Resources */,
@@ -300,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8AC623C1F68989200FFA86D /* ProfileVC.swift in Sources */,
 				E81BDF361F587DEC0040D9D4 /* ChatVC.swift in Sources */,
 				E81B86C11F65A66D009A76ED /* AvatarPickerVC.swift in Sources */,
 				E89ACB3B1F61FBAA00825EB1 /* RoundedButton.swift in Sources */,

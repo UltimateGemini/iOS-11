@@ -22,6 +22,11 @@ class ChannelVC: UIViewController {
         
         NotificationCenter.default.addObserver(self, selector: #selector(ChannelVC.userDataDidChange(notif:)), name: NOTI_USER_DATA_DID_CHANGE, object: nil)
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+        setupUserInfo()
+    }
 
     @IBAction func loginBtnPressed(_ sender: Any) {
         
@@ -31,12 +36,18 @@ class ChannelVC: UIViewController {
             let profile = ProfileVC()
             profile.modalPresentationStyle = .custom
             present(profile, animated: true, completion: nil)
+        } else {
+            
+            performSegue(withIdentifier: TO_LOGIN, sender: nil)
         }
-        
-        performSegue(withIdentifier: TO_LOGIN, sender: nil)
     }
 
     @objc func userDataDidChange( notif: Notification) {
+        
+        setupUserInfo()
+    }
+    
+    func setupUserInfo() {
         
         if AuthService.instance.isLoggedIn {
             
@@ -52,5 +63,10 @@ class ChannelVC: UIViewController {
             
         }
     }
+    
+    
+    
+    
+    
 }
 

@@ -20,7 +20,7 @@ class SocketService: NSObject {
     
         var socket : SocketIOClient = SocketIOClient(socketURL: URL(string: BASE_URL)!)
     
-        func establishedConnection() {
+        func establishConnection() {
     
             socket.connect()
         }
@@ -32,7 +32,7 @@ class SocketService: NSObject {
     
         func addChannel(channelName: String, channelDescription: String, completion: @escaping CompletionHandler) {
     
-            socket.emit("newchannel", channelName, channelDescription)
+            socket.emit("newChannel", channelName, channelDescription)
             completion(true)
     
     

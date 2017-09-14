@@ -18,14 +18,14 @@ class AddChannelVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        setUpView()
+        setupView()
     }
     
     
     @IBAction func createChannelPressed(_ sender: Any) {
         
         guard let channelName = nameTxt.text, nameTxt.text != "" else { return }
-        guard let channelDesc = chanDesc.text, chanDesc.text != "" else { return }
+        guard let channelDesc = chanDesc.text else { return }
         
         SocketService.instance.addChannel(channelName: channelName, channelDescription: channelDesc) { (success) in
             
@@ -39,7 +39,7 @@ class AddChannelVC: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-    func setUpView() {
+    func setupView() {
         
         let closeTouch = UITapGestureRecognizer(target: self, action: #selector(AddChannelVC.closeTap(recognizer:)))
         

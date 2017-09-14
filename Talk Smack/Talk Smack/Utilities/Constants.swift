@@ -23,6 +23,8 @@ let smackPurplePlaceHolder = #colorLiteral(red: 0.3266413212, green: 0.421520113
 
 //: Noti Constants
 let NOTI_USER_DATA_DID_CHANGE = Notification.Name("notifiUserDataChanged")
+let NOTI_CHANNELS_LOADED = Notification.Name("channelsLoaded")
+let NOTI_CHANNEL_SELECTED = Notification.Name("channelSelected")
 
 
 //: Segues

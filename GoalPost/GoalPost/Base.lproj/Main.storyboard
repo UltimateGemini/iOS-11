@@ -21,7 +21,7 @@
         <!--GoalsVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="GoalsVC" customModule="GoalPost" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GoalsVC" id="BYZ-38-t0r" customClass="GoalsVC" customModule="GoalPost" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PDa-uW-vWZ"/>
                         <viewControllerLayoutGuide type="bottom" id="mFb-sf-86m"/>
@@ -58,7 +58,6 @@
                                         <state key="normal" image="addGoal"/>
                                         <connections>
                                             <action selector="addGoalBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S8p-qD-alp"/>
-                                            <segue destination="tst-0W-RZI" kind="presentation" id="gGA-aw-ib7"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -191,7 +190,7 @@
         <!--Create GoalVC-->
         <scene sceneID="b8s-vH-Ia4">
             <objects>
-                <viewController id="tst-0W-RZI" customClass="CreateGoalVC" customModule="GoalPost" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateGoalVC" id="tst-0W-RZI" customClass="CreateGoalVC" customModule="GoalPost" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="i1H-7Y-099"/>
                         <viewControllerLayoutGuide type="bottom" id="tV4-K7-si2"/>

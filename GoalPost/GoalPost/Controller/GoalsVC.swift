@@ -12,7 +12,8 @@ class GoalsVC: UIViewController {
 
     
     //: Outlets
-    @IBOutlet weak var tabelView: UITableView!
+    @IBOutlet weak var tableView: UITableView!
+    
     
     
     

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E838A3941F70709B008FB137 /* Goaltype.swift in Sources */ = {isa = PBXBuildFile; fileRef = E838A3931F70709B008FB137 /* Goaltype.swift */; };
+		E838A3961F707926008FB137 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E838A3951F707926008FB137 /* CreateGoalVC.swift */; };
 		E8545BFA1F703F2C00FCBFAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8545BF91F703F2C00FCBFAB /* AppDelegate.swift */; };
 		E8545BFC1F703F2C00FCBFAB /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8545BFB1F703F2C00FCBFAB /* GoalsVC.swift */; };
 		E8545BFF1F703F2C00FCBFAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8545BFD1F703F2C00FCBFAB /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		E838A3931F70709B008FB137 /* Goaltype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goaltype.swift; sourceTree = SOURCE_ROOT; };
+		E838A3951F707926008FB137 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 		E8545BF61F703F2C00FCBFAB /* GoalPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8545BF91F703F2C00FCBFAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8545BFB1F703F2C00FCBFAB /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				E8545BFB1F703F2C00FCBFAB /* GoalsVC.swift */,
+				E838A3951F707926008FB137 /* CreateGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8545C141F7048E400FCBFAB /* GoalCell.swift in Sources */,
+				E838A3961F707926008FB137 /* CreateGoalVC.swift in Sources */,
 				E8545BFC1F703F2C00FCBFAB /* GoalsVC.swift in Sources */,
 				E8545BFA1F703F2C00FCBFAB /* AppDelegate.swift in Sources */,
 				E8545C021F703F2C00FCBFAB /* GoalPost.xcdatamodeld in Sources */,

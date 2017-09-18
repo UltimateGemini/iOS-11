@@ -226,7 +226,7 @@
                                         </constraints>
                                         <state key="normal" image="back"/>
                                         <connections>
-                                            <action selector="backBtnWasPressed:" destination="tst-0W-RZI" eventType="touchUpInside" id="HYd-7h-l1d"/>
+                                            <action selector="backBtnWasPressed:" destination="tst-0W-RZI" eventType="touchUpInside" id="XXq-A8-Vcs"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -266,7 +266,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="shortTermBtnPressed:" destination="tst-0W-RZI" eventType="touchUpInside" id="VO1-Uv-4aW"/>
+                                                    <action selector="shortTermBtnWasPressed:" destination="tst-0W-RZI" eventType="touchUpInside" id="XHi-Ib-2BW"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pL-ke-LOW">
@@ -277,7 +277,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="longTermBtnPressed:" destination="tst-0W-RZI" eventType="touchUpInside" id="va8-CN-m09"/>
+                                                    <action selector="longTermBtnWasPressed:" destination="tst-0W-RZI" eventType="touchUpInside" id="jyT-Ez-rZO"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -301,7 +301,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="nextBtnWasPressed:" destination="tst-0W-RZI" eventType="touchUpInside" id="q7m-WC-D1E"/>
+                                    <action selector="nextBtnWasPressed:" destination="tst-0W-RZI" eventType="touchUpInside" id="JQS-Bt-Fyg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -319,10 +319,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="goalTxtView" destination="6eJ-12-jZC" id="3Mq-h5-cCO"/>
-                        <outlet property="longTermBtn" destination="3pL-ke-LOW" id="a08-NJ-Ddw"/>
-                        <outlet property="nextBtn" destination="lAb-x5-bZp" id="oEF-EB-MX2"/>
-                        <outlet property="shortTermBtn" destination="bKi-F4-fP0" id="H4w-uN-SgA"/>
+                        <outlet property="goalTextView" destination="6eJ-12-jZC" id="pIR-V6-2Uh"/>
+                        <outlet property="longTermBtn" destination="3pL-ke-LOW" id="Wze-Uj-oue"/>
+                        <outlet property="nextBtn" destination="lAb-x5-bZp" id="Ron-vL-nkL"/>
+                        <outlet property="shortTermBtn" destination="bKi-F4-fP0" id="Ird-rX-eG2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="47S-Yl-xwC" userLabel="First Responder" sceneMemberID="firstResponder"/>

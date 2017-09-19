@@ -21,6 +21,7 @@
 		E8A975B51F717AAE00E55A58 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A975B41F717AAE00E55A58 /* ShadowView.swift */; };
 		E8A975B71F717BC300E55A58 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A975B61F717BC300E55A58 /* AuthService.swift */; };
 		E8A975B91F7183FF00E55A58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8A975B81F7183F100E55A58 /* GoogleService-Info.plist */; };
+		E8A975BB1F718FB000E55A58 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A975BA1F718FB000E55A58 /* ProfileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		E8A975B41F717AAE00E55A58 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		E8A975B61F717BC300E55A58 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		E8A975B81F7183F100E55A58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E8A975BA1F718FB000E55A58 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				E8A975961F71657800E55A58 /* GroupsVC.swift */,
 				E8A975AE1F71771400E55A58 /* AuthVC.swift */,
 				E8A975B01F71775D00E55A58 /* LoginVC.swift */,
+				E8A975BA1F718FB000E55A58 /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				E8A975971F71657800E55A58 /* GroupsVC.swift in Sources */,
 				E8A975B11F71775D00E55A58 /* LoginVC.swift in Sources */,
 				E8A975B71F717BC300E55A58 /* AuthService.swift in Sources */,
+				E8A975BB1F718FB000E55A58 /* ProfileVC.swift in Sources */,
 				E8A975931F71657800E55A58 /* AppDelegate.swift in Sources */,
 				E8A975B51F717AAE00E55A58 /* ShadowView.swift in Sources */,
 				E8A975951F71657800E55A58 /* FeedVC.swift in Sources */,

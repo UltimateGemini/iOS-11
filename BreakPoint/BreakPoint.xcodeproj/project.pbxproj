@@ -19,6 +19,7 @@
 		E8A975B11F71775D00E55A58 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A975B01F71775D00E55A58 /* LoginVC.swift */; };
 		E8A975B31F71779100E55A58 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A975B21F71779100E55A58 /* InsetTextField.swift */; };
 		E8A975B51F717AAE00E55A58 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A975B41F717AAE00E55A58 /* ShadowView.swift */; };
+		E8A975B71F717BC300E55A58 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A975B61F717BC300E55A58 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		E8A975B01F71775D00E55A58 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		E8A975B21F71779100E55A58 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		E8A975B41F717AAE00E55A58 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		E8A975B61F717BC300E55A58 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				E8A975AC1F716D6A00E55A58 /* DataService.swift */,
+				E8A975B61F717BC300E55A58 /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				E8A975AF1F71771400E55A58 /* AuthVC.swift in Sources */,
 				E8A975971F71657800E55A58 /* SecondViewController.swift in Sources */,
 				E8A975B11F71775D00E55A58 /* LoginVC.swift in Sources */,
+				E8A975B71F717BC300E55A58 /* AuthService.swift in Sources */,
 				E8A975931F71657800E55A58 /* AppDelegate.swift in Sources */,
 				E8A975B51F717AAE00E55A58 /* ShadowView.swift in Sources */,
 				E8A975951F71657800E55A58 /* FirstViewController.swift in Sources */,

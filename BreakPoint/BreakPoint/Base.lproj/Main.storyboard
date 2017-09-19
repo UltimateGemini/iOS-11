@@ -52,7 +52,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.12939286231994629" green="0.12942266464233398" blue="0.12939092516899109" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.1604042649269104" green="0.16784888505935669" blue="0.20932886004447937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="hem-Cu-ZkZ" firstAttribute="top" secondItem="bdh-qV-T7x" secondAttribute="top" constant="30" id="0Q6-Sh-iZj"/>
                                     <constraint firstAttribute="trailing" secondItem="hem-Cu-ZkZ" secondAttribute="trailing" constant="20" id="6yD-mu-4qD"/>
@@ -130,7 +130,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.1293717617" green="0.1293717617" blue="0.1293717617" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.1604042649269104" green="0.16784888505935669" blue="0.20932886004447937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="40l-GG-7pR"/>
                                     <constraint firstItem="9Os-nG-DKF" firstAttribute="top" secondItem="Rep-W8-zoM" secondAttribute="top" constant="30" id="FNx-IL-QgL"/>
@@ -139,7 +139,7 @@
                                     <constraint firstItem="9Os-nG-DKF" firstAttribute="centerY" secondItem="AZx-zG-dAd" secondAttribute="centerY" id="oC5-AQ-9Hp"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oD6-yv-59G">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="oD6-yv-59G">
                                 <rect key="frame" x="20" y="90" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Oqe-S9-Pxc"/>
@@ -164,7 +164,7 @@
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nso-ev-eO7">
                                 <rect key="frame" x="0.0" y="617" width="375" height="50"/>
-                                <color key="backgroundColor" red="0.12939286231994629" green="0.12942266464233398" blue="0.12939092516899109" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.1604042649269104" green="0.16784888505935669" blue="0.20932886004447937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="cCu-fx-YnT"/>
                                 </constraints>
@@ -244,7 +244,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.1293717617" green="0.1293717617" blue="0.1293717617" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.1604042649269104" green="0.16784888505935669" blue="0.20932886004447937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="Kyr-gf-BrG" firstAttribute="centerY" secondItem="ipf-cT-UXY" secondAttribute="centerY" id="5Y0-Lw-pqG"/>
                                     <constraint firstAttribute="trailing" secondItem="Kyr-gf-BrG" secondAttribute="trailing" constant="20" id="CJN-bS-K9p"/>
@@ -357,7 +357,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.1293717617" green="0.1293717617" blue="0.1293717617" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.1604042649269104" green="0.16784888505935669" blue="0.20932886004447937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="q0Y-5e-57E" firstAttribute="top" secondItem="wUD-wh-up0" secondAttribute="top" constant="30" id="2xx-Fq-8kR"/>
                                     <constraint firstAttribute="trailing" secondItem="q0Y-5e-57E" secondAttribute="trailing" constant="20" id="VIk-dU-rgF"/>
@@ -541,7 +541,7 @@
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder=" email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OAp-of-xwn" customClass="InsetTextField" customModule="BreakPoint" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="41" width="315" height="50"/>
-                                        <color key="backgroundColor" red="0.1293717616580311" green="0.1293717616580311" blue="0.1293717616580311" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.1604042649269104" green="0.16784888505935669" blue="0.20932886004447937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="3Dt-1S-tDf"/>
                                         </constraints>
@@ -551,7 +551,7 @@
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder=" password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tyK-bG-L77" customClass="InsetTextField" customModule="BreakPoint" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="111" width="315" height="50"/>
-                                        <color key="backgroundColor" red="0.1293717616580311" green="0.1293717616580311" blue="0.1293717616580311" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.1604042649269104" green="0.16784888505935669" blue="0.20932886004447937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="KBA-qE-4ba"/>
                                         </constraints>

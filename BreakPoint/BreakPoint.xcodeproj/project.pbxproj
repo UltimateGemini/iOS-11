@@ -15,6 +15,10 @@
 		E8A9759C1F71657800E55A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A9759B1F71657800E55A58 /* Assets.xcassets */; };
 		E8A9759F1F71657800E55A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A9759D1F71657800E55A58 /* LaunchScreen.storyboard */; };
 		E8A975AD1F716D6A00E55A58 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A975AC1F716D6A00E55A58 /* DataService.swift */; };
+		E8A975AF1F71771400E55A58 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A975AE1F71771400E55A58 /* AuthVC.swift */; };
+		E8A975B11F71775D00E55A58 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A975B01F71775D00E55A58 /* LoginVC.swift */; };
+		E8A975B31F71779100E55A58 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A975B21F71779100E55A58 /* InsetTextField.swift */; };
+		E8A975B51F717AAE00E55A58 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A975B41F717AAE00E55A58 /* ShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		E8A975A01F71657800E55A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8A975AB1F716AFC00E55A58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E8A975AC1F716D6A00E55A58 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		E8A975AE1F71771400E55A58 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		E8A975B01F71775D00E55A58 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E8A975B21F71779100E55A58 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		E8A975B41F717AAE00E55A58 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,8 @@
 			children = (
 				E8A975941F71657800E55A58 /* FirstViewController.swift */,
 				E8A975961F71657800E55A58 /* SecondViewController.swift */,
+				E8A975AE1F71771400E55A58 /* AuthVC.swift */,
+				E8A975B01F71775D00E55A58 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -110,6 +120,8 @@
 		E8A975A71F7165BD00E55A58 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E8A975B21F71779100E55A58 /* InsetTextField.swift */,
+				E8A975B41F717AAE00E55A58 /* ShadowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -259,9 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A975AF1F71771400E55A58 /* AuthVC.swift in Sources */,
 				E8A975971F71657800E55A58 /* SecondViewController.swift in Sources */,
+				E8A975B11F71775D00E55A58 /* LoginVC.swift in Sources */,
 				E8A975931F71657800E55A58 /* AppDelegate.swift in Sources */,
+				E8A975B51F717AAE00E55A58 /* ShadowView.swift in Sources */,
 				E8A975951F71657800E55A58 /* FirstViewController.swift in Sources */,
+				E8A975B31F71779100E55A58 /* InsetTextField.swift in Sources */,
 				E8A975AD1F716D6A00E55A58 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

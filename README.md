@@ -93,7 +93,7 @@ This app demonstrates a non-consumable IAP where you can remove ads from an app.
 ### Built With
 * [Googlemobile Ads framework](https://developers.google.com/admob/ios/download) - Used to display Ads
 
-![alt text](https://www.noelfranceschi.com/iosApps/dailyDose)
+![alt text](https://www.noelfranceschi.com/iosApps/dailyDose.png)
 
 
 

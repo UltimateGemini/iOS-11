@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>927988091855-f8uqurhtu9i9kc2mn8cqmb0j78obifbs.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.927988091855-f8uqurhtu9i9kc2mn8cqmb0j78obifbs</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAvqWl_2nZPoObzuwEeBYMrqBv_4zI0r0U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>927988091855</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.noelfranceschi.BreakPoint</string>
+	<key>PROJECT_ID</key>
+	<string>breakpoint-a709f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>breakpoint-a709f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:927988091855:ios:45f0ced7fdad1e0d</string>
+	<key>DATABASE_URL</key>
+	<string>https://breakpoint-a709f.firebaseio.com</string>
+</dict>
+</plist>

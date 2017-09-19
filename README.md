@@ -84,3 +84,23 @@ A simple map app that gets your current location and displays a collection of im
 * Custom View Controller - Added view controller and view programatically.
 
 ![alt text](https://www.noelfranceschi.com/iosApps/pixel-city.png)
+
+
+
+## DailyDose
+This app demonstrates a non-consumable IAP where you can remove ads from an app. IF user deletes app later on, users can re download the app and click a button to restore their purchase.
+
+### Built With
+* [Googlemobile Ads framework](https://developers.google.com/admob/ios/download) - Used to display Ads
+
+![alt text](https://www.noelfranceschi.com/iosApps/dailydose.png)
+
+
+
+## GoalPost
+A Simple C.R.U.D App. Add goals and keep track of them.
+
+### Built With
+* [CoreData](https://developer.apple.com/documentation/coredata) - Managing the model layer objects in the application 
+
+![alt text](https://www.noelfranceschi.com/iosApps/goalPost.png)

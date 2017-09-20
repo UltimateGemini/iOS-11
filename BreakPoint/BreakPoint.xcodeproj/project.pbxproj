@@ -27,6 +27,7 @@
 		E8A975BF1F7198F800E55A58 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A975BE1F7198F800E55A58 /* UIViewExt.swift */; };
 		E8A975C11F719D1900E55A58 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A975C01F719D1900E55A58 /* FeedCell.swift */; };
 		E8A975C31F719F2700E55A58 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A975C21F719F2700E55A58 /* Message.swift */; };
+		E8EE82851F72BDAE004E5EFE /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EE82841F72BDAE004E5EFE /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		E8A975BE1F7198F800E55A58 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		E8A975C01F719D1900E55A58 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		E8A975C21F719F2700E55A58 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E8EE82841F72BDAE004E5EFE /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				E8A975B21F71779100E55A58 /* InsetTextField.swift */,
 				E8A975B41F717AAE00E55A58 /* ShadowView.swift */,
 				E8A975C01F719D1900E55A58 /* FeedCell.swift */,
+				E8EE82841F72BDAE004E5EFE /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				E8A975B71F717BC300E55A58 /* AuthService.swift in Sources */,
 				E8A975BB1F718FB000E55A58 /* ProfileVC.swift in Sources */,
 				E81BC6801F71AFF300A6E6E7 /* CreateGroupsVC.swift in Sources */,
+				E8EE82851F72BDAE004E5EFE /* UserCell.swift in Sources */,
 				E8A975931F71657800E55A58 /* AppDelegate.swift in Sources */,
 				E8A975B51F717AAE00E55A58 /* ShadowView.swift in Sources */,
 				E8A975BD1F71941300E55A58 /* CreatePostVC.swift in Sources */,

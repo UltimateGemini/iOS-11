@@ -19,6 +19,7 @@ class CreateGroupsVC: UIViewController {
     @IBOutlet weak var doneBtn: UIButton!
     
     var emailArray = [String]()
+    var choosenUserArray = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +27,11 @@ class CreateGroupsVC: UIViewController {
         tableView.dataSource = self
         emailSearchField.delegate = self
         emailSearchField.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        doneBtn.isHidden = true
     }
     
     @objc func textFieldDidChange() {
@@ -64,8 +70,32 @@ extension CreateGroupsVC: UITableViewDelegate, UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "userCell") as? UserCell else { return UITableViewCell() }
         let profileImage = UIImage(named: "defaultProfileImage")
         
-        cell.configureCell(profileImage: profileImage!, email: emailArray[indexPath.row], isSelected: true)
+        if choosenUserArray.contains(emailArray[indexPath.row]) {
+            cell.configureCell(profileImage: profileImage!, email: emailArray[indexPath.row], isSelected: true)
+        } else {
+            cell.configureCell(profileImage: profileImage!, email: emailArray[indexPath.row], isSelected: false)
+        }
+    
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let cell = tableView.cellForRow(at: indexPath) as? UserCell else { return }
+        
+        if !choosenUserArray.contains(cell.emailLbl.text!) {
+            choosenUserArray.append(cell.emailLbl.text!)
+            groupMemberLbl.text = choosenUserArray.joined(separator: ", ")
+            doneBtn.isHidden = false
+        } else {
+            choosenUserArray = choosenUserArray.filter({ $0 != cell.emailLbl.text })
+            
+            if choosenUserArray.count >= 1 {
+                groupMemberLbl.text = choosenUserArray.joined(separator: ", ")
+            } else {
+                groupMemberLbl.text = "add people to you group"
+                doneBtn.isHidden = true
+            }
+        }
     }
 }
 

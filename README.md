@@ -116,3 +116,16 @@ A simple social media for developers. Users can register/login and communicate w
 * [FireBase](https://firebase.google.com/) - Backend datbase for application.
 
 ![alt text](https://www.noelfranceschi.com/iosApps/breakpoint.png)
+
+
+
+## BreakPoint
+This app demonstrates the functionality of CoreML. This app utilizes the camera to scan an object on an image that you take and pass that through a machine learning model to predict the name of that object. Then It displays the name and the confidence percentage of the object.
+
+### Built With
+* [CoreML](https://developer.apple.com/documentation/coreml) - Integrates machine learning models into this app.
+* CocoaPods
+* [Vison](https://developer.apple.com/documentation/vision) - High-performance image analysis
+* [NSLingusticTagger](https://developer.apple.com/documentation/foundation/nslinguistictagger)
+
+![alt text](https://www.noelfranceschi.com/iosApps/breakpoint.png)

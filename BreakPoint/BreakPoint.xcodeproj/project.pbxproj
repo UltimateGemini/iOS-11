@@ -11,6 +11,7 @@
 		E80615AF1F73FC1700C094A1 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80615AE1F73FC1700C094A1 /* Group.swift */; };
 		E80615B11F7409F200C094A1 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80615B01F7409F200C094A1 /* GroupFeedCell.swift */; };
 		E80615B31F740B0200C094A1 /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80615B21F740B0200C094A1 /* GroupFeedVC.swift */; };
+		E80615B51F742A4E00C094A1 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80615B41F742A4E00C094A1 /* UIViewControllerExt.swift */; };
 		E81BC6801F71AFF300A6E6E7 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81BC67F1F71AFF300A6E6E7 /* CreateGroupsVC.swift */; };
 		E87C87191F72E1F900AFFE8C /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87C87181F72E1F900AFFE8C /* GroupCell.swift */; };
 		E8A975931F71657800E55A58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A975921F71657800E55A58 /* AppDelegate.swift */; };
@@ -41,6 +42,7 @@
 		E80615AE1F73FC1700C094A1 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		E80615B01F7409F200C094A1 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
 		E80615B21F740B0200C094A1 /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
+		E80615B41F742A4E00C094A1 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		E81BC67F1F71AFF300A6E6E7 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		E87C87181F72E1F900AFFE8C /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
 		E8A9758F1F71657800E55A58 /* BreakPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				E8A975BE1F7198F800E55A58 /* UIViewExt.swift */,
+				E80615B41F742A4E00C094A1 /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				E8A975AF1F71771400E55A58 /* AuthVC.swift in Sources */,
 				E87C87191F72E1F900AFFE8C /* GroupCell.swift in Sources */,
 				E8A975971F71657800E55A58 /* GroupsVC.swift in Sources */,
+				E80615B51F742A4E00C094A1 /* UIViewControllerExt.swift in Sources */,
 				E8A975B11F71775D00E55A58 /* LoginVC.swift in Sources */,
 				E80615B31F740B0200C094A1 /* GroupFeedVC.swift in Sources */,
 				E80615B11F7409F200C094A1 /* GroupFeedCell.swift in Sources */,

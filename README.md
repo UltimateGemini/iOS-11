@@ -119,7 +119,7 @@ A simple social media for developers. Users can register/login and communicate w
 
 
 
-## BreakPoint
+## Visions
 This app demonstrates the functionality of CoreML. This app utilizes the camera to scan an object on an image that you take and pass that through a machine learning model to predict the name of that object. Then It displays the name and the confidence percentage of the object.
 
 ### Built With

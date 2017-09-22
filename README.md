@@ -120,12 +120,14 @@ A simple social media for developers. Users can register/login and communicate w
 
 
 ## Visions
-This app demonstrates the functionality of CoreML. This app utilizes the camera to scan an object on an image that you take and pass that through a machine learning model to predict the name of that object. Then It displays the name and the confidence percentage of the object.
+This app demonstrates the functionality of CoreML. This app utilizes the camera to scan an object on an image that you take and pass that through a machine learning model to predict the name of that object. Then It speaks and displays the name and the confidence percentage of the object.
 
 ### Built With
 * [CoreML](https://developer.apple.com/documentation/coreml) - Integrates machine learning models into this app.
-* CocoaPods
-* [Vison](https://developer.apple.com/documentation/vision) - High-performance image analysis
-* [NSLingusticTagger](https://developer.apple.com/documentation/foundation/nslinguistictagger)
+* [Vison](https://developer.apple.com/documentation/vision) - High-performance image analysis.
+* [AVFoundation](https://developer.apple.com/av-foundation/) - Add Media functionality to apps.
+* [AVSpeechSyntizer](https://developer.apple.com/documentation/avfoundation/avspeechsynthesizer) - Add Speech functionality to apps.
+* [SqueezeNet](https://developer.apple.com/machine-learning/) - ML Model that detects the dominant objects present in an image from a set of 1000 categories such as trees, animals, food, vehicles, people, and more.
 
-![alt text](https://www.noelfranceschi.com/iosApps/breakpoint.png)
+
+![alt text](https://www.noelfranceschi.com/iosApps/visions.png)

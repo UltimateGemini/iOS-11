@@ -24,6 +24,7 @@ class CameraVC: UIViewController {
     var previewLayer: AVCaptureVideoPreviewLayer!
     var photoData: Data?
     var flashControlState: FlashState = .off
+    var speechSynthesizer = AVSpeechSynthesizer()
     
     //: Outlets
     @IBOutlet weak var cameraView: UIView!
@@ -32,10 +33,17 @@ class CameraVC: UIViewController {
     @IBOutlet weak var idLbl: UILabel!
     @IBOutlet weak var confidenceLbl: UILabel!
     @IBOutlet weak var roundedLblView: roundedShadowView!
+    @IBOutlet weak var spinner: UIActivityIndicatorView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         previewLayer.frame = cameraView.bounds
+        speechSynthesizer.delegate = self
+        spinner.isHidden = true
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -74,8 +82,11 @@ class CameraVC: UIViewController {
     }
     
     @objc func didTapCameraView() {
-        let settings = AVCapturePhotoSettings()
+        self.cameraView.isUserInteractionEnabled = true
+        self.spinner.isHidden = true
+        self.spinner.startAnimating()
         
+        let settings = AVCapturePhotoSettings()
         settings.previewPhotoFormat = settings.embeddedThumbnailPhotoFormat
         
         if flashControlState == .off {
@@ -93,15 +104,27 @@ class CameraVC: UIViewController {
         for classification in results {
             print(classification.identifier)
             if classification.confidence < 0.5 {
-                self.idLbl.text = "Not sure what this is. Please try again."
+                let unknownObjectMessage = "Not sure what this is. Please try again."
+                self.idLbl.text = unknownObjectMessage
+                synthesizeSpeech(fromString: unknownObjectMessage)
                 self.confidenceLbl.text = ""
                 break
             } else {
-                self.idLbl.text = classification.identifier
-                self.confidenceLbl.text = "CONFIDENCE: \(Int(classification.confidence * 100))%"
+                let identification = classification.identifier
+                let confidence = Int(classification.confidence * 100)
+                
+                self.idLbl.text = identification
+                self.confidenceLbl.text = "CONFIDENCE: \(confidence)%"
+                let completeSentence = "This looks like a \(identification) and I'm \(confidence) percent sure."
+                synthesizeSpeech(fromString: completeSentence)
                 break
             }
         }
+    }
+    
+    func synthesizeSpeech(fromString string: String) {
+        let speechUtterance = AVSpeechUtterance(string: string)
+        speechSynthesizer.speak(speechUtterance)
     }
     
     @IBAction func flashBtnWasPressed(_ sender: Any) {
@@ -141,4 +164,17 @@ extension CameraVC: AVCapturePhotoCaptureDelegate {
         }
     }
 }
+
+extension CameraVC: AVSpeechSynthesizerDelegate {
+    func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didPause utterance: AVSpeechUtterance) {
+        self.cameraView.isUserInteractionEnabled = false
+        self.spinner.isHidden = false
+        self.spinner.stopAnimating()
+    }
+}
+
+
+
+
+
 

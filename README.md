@@ -17,7 +17,7 @@ Learned the foundation of ios development. Creating Storyboards, View Controller
 
 
 ## Dev Profile
-Learned to create adaptive interfaces that change based on screen size. contraints, stackview.
+Learned to create adaptive interfaces that change based on screen size.
 
 ### Built With
 * [Auto Layout](https://developer.apple.com/documentation/uikit/view_management/auto_layout) - Adding support for multiple iPhone & iPad screens.
@@ -27,21 +27,21 @@ Learned to create adaptive interfaces that change based on screen size. contrain
 
 
 ## Window Shopper
-Fully functional app that assists you in knowing how much time it would take you to purchase an item. Put in a price for an item and your hourly wage that you get at your job to see how long it would take you to be able to afford that item.
+Fully functional app that assist you in knowing how much time it would take you to purchase an item. Put in a price for an item and your hourly wage that you get at your job to see how long it would take you to be able to afford that item.
 
 ### Built With
-* Custom TextFields
-* IBDesignable - Created custom elements and the attributes.
 * [Input Accessory views](https://developer.apple.com/documentation/uikit/uitextfield/1619627-inputaccessoryview) - Created UIButton element programmatically and attached it to the textField accessory.
 * [DrawRect](https://developer.apple.com/documentation/uikit/uiview/1622529-drawrect) - Created UILabel '$' and added to the left of the textfields.
 * [Unit Testing](https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/testing_with_xcode/chapters/04-writing_tests.html) - Testing app data.
+* Custom TextFields
+* IBDesignable - Created custom elements and the attributes.
 
 ![alt text](https://www.noelfranceschi.com/iosApps/shopper.png)
 
 
 
 ## Coder Swag
-Store front app that displays items for sale.
+Minor functionality store front app demonstrating different UIViews.
 
 ### Built With
 * [Table View](https://developer.apple.com/documentation/uikit/uitableviewcontroller/1614753-tableview) - Adding Table views.
@@ -54,7 +54,7 @@ Store front app that displays items for sale.
 
 
 ## Talk Smack
-Fully functionaly Slack app clone. Users can create/login accounts, Choose a username avatar and color. It also enables users to create chat rooms and communciate with users in real time!
+Fully functional Slack app clone. Users can create/login accounts, Choose a username avatar and color. It also enables users to create chat rooms and communciate with users in real time!
 
 ### Built With
 * [SWReveal](https://github.com/John-Lluch/SWRevealViewController) - Custom side menu view.
@@ -108,12 +108,12 @@ A simple C.R.U.D App. Add goals and keep track of them.
 
 
 ## BreakPoint
-A simple social media for developers. Users can register/login and communicate with other users. Has a main full feed and users can add groups, invite other users that are signed up and chat privately.
+A simple social media app for developers. Users can register/login and communicate with other developers. It Has a main full feed. Users can add groups, invite other users that are signed up and chat privately.
 
 ### Built With
 * [UITabBar](https://developer.apple.com/documentation/uikit/uitabbar) - Displays one or more buttons in a tab bar for selecting between different views.
-* CocoaPods
 * [FireBase](https://firebase.google.com/) - Backend datbase for application.
+* [Cocoa Pods](https://cocoapods.org/) - Custom libraries for iOS.
 
 ![alt text](https://www.noelfranceschi.com/iosApps/breakpoint.png)
 

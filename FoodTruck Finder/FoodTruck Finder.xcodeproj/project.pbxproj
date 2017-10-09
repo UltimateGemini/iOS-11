@@ -18,6 +18,7 @@
 		E85EE15A1F8C109500CD24ED /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EE1591F8C109500CD24ED /* DataService.swift */; };
 		E85EE15C1F8C125900CD24ED /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EE15B1F8C125900CD24ED /* Constants.swift */; };
 		E85EE15E1F8C177700CD24ED /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EE15D1F8C177700CD24ED /* AuthService.swift */; };
+		E85EE1601F8C1F5400CD24ED /* FoodTruckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EE15F1F8C1F5300CD24ED /* FoodTruckCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		E85EE1591F8C109500CD24ED /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		E85EE15B1F8C125900CD24ED /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E85EE15D1F8C177700CD24ED /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		E85EE15F1F8C1F5300CD24ED /* FoodTruckCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		E85EE1271F8BE47300CD24ED /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E85EE15F1F8C1F5300CD24ED /* FoodTruckCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				E85EE15A1F8C109500CD24ED /* DataService.swift in Sources */,
 				E85EE15C1F8C125900CD24ED /* Constants.swift in Sources */,
 				E85EE15E1F8C177700CD24ED /* AuthService.swift in Sources */,
+				E85EE1601F8C1F5400CD24ED /* FoodTruckCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

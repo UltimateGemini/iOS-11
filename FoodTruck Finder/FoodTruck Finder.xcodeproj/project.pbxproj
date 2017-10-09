@@ -19,6 +19,8 @@
 		E85EE15C1F8C125900CD24ED /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EE15B1F8C125900CD24ED /* Constants.swift */; };
 		E85EE15E1F8C177700CD24ED /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EE15D1F8C177700CD24ED /* AuthService.swift */; };
 		E85EE1601F8C1F5400CD24ED /* FoodTruckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EE15F1F8C1F5300CD24ED /* FoodTruckCell.swift */; };
+		E8A8CBF11F8C27B000DBA021 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A8CBEF1F8C27B000DBA021 /* LoginVC.swift */; };
+		E8A8CBF21F8C27B000DBA021 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8A8CBF01F8C27B000DBA021 /* LoginVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		E85EE15B1F8C125900CD24ED /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E85EE15D1F8C177700CD24ED /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		E85EE15F1F8C1F5300CD24ED /* FoodTruckCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckCell.swift; sourceTree = "<group>"; };
+		E8A8CBEF1F8C27B000DBA021 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E8A8CBF01F8C27B000DBA021 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				E85EE1061F8BE25600CD24ED /* MainVC.swift */,
+				E8A8CBEF1F8C27B000DBA021 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				E85EE15F1F8C1F5300CD24ED /* FoodTruckCell.swift */,
+				E8A8CBF01F8C27B000DBA021 /* LoginVC.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -239,6 +245,7 @@
 			files = (
 				E85EE10F1F8BE25600CD24ED /* LaunchScreen.storyboard in Resources */,
 				E85EE10C1F8BE25600CD24ED /* Assets.xcassets in Resources */,
+				E8A8CBF21F8C27B000DBA021 /* LoginVC.xib in Resources */,
 				E85EE10A1F8BE25600CD24ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +269,7 @@
 				E85EE12A1F8BE52200CD24ED /* FoodTruck.swift in Sources */,
 				E85EE1581F8BED3F00CD24ED /* FoodTruckReview.swift in Sources */,
 				E85EE15A1F8C109500CD24ED /* DataService.swift in Sources */,
+				E8A8CBF11F8C27B000DBA021 /* LoginVC.swift in Sources */,
 				E85EE15C1F8C125900CD24ED /* Constants.swift in Sources */,
 				E85EE15E1F8C177700CD24ED /* AuthService.swift in Sources */,
 				E85EE1601F8C1F5400CD24ED /* FoodTruckCell.swift in Sources */,

@@ -12,11 +12,12 @@ class MainVC: UIViewController {
 
     //: Outlets
     @IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var addButton: UIImageView!
     
     //: Vars
     var dataService = DataService.instance
     var authService = AuthService.instance
+    
+    var logInVC: LoginVC?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +29,22 @@ class MainVC: UIViewController {
         
         DataService.instance.getAllFoodTrucks()
     }
+    
+    func showLogInVC() {
+        logInVC = LoginVC()
+        logInVC?.modalPresentationStyle = UIModalPresentationStyle.formSheet
+        self.present(logInVC!, animated: true, completion: nil)
+    }
+    
+    @IBAction func addButtonTapped(sender: UIButton) {
+        if AuthService.instance.isAuthenticated == true {
+            performSegue(withIdentifier: "showAddTruckVC", sender: self)
+        } else {
+            showLogInVC()
+        }
+    }
+    
+    
 
 }
 

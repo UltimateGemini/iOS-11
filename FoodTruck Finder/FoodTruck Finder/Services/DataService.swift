@@ -79,7 +79,7 @@ class DataService {
                 }
             } else {
                 //: Failure
-                print("URL Session Task Failed: \(error?.localizedDescription)")
+                print("URL Session Task Failed: \(String(describing: error?.localizedDescription))")
             }
         })
         task.resume()
@@ -143,7 +143,7 @@ class DataService {
                 } else {
                     
                     //: Failure
-                    print("URL Session Task Failed: \(error?.localizedDescription)")
+                    print("URL Session Task Failed: \(String(describing: error?.localizedDescription))")
                     completion(false)
                 }
             })

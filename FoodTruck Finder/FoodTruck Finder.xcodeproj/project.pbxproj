@@ -21,6 +21,7 @@
 		E85EE1601F8C1F5400CD24ED /* FoodTruckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EE15F1F8C1F5300CD24ED /* FoodTruckCell.swift */; };
 		E8A8CBF11F8C27B000DBA021 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A8CBEF1F8C27B000DBA021 /* LoginVC.swift */; };
 		E8A8CBF21F8C27B000DBA021 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8A8CBF01F8C27B000DBA021 /* LoginVC.xib */; };
+		E8A8CBF41F8C350F00DBA021 /* AddTruckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A8CBF31F8C350F00DBA021 /* AddTruckVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		E85EE15F1F8C1F5300CD24ED /* FoodTruckCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckCell.swift; sourceTree = "<group>"; };
 		E8A8CBEF1F8C27B000DBA021 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		E8A8CBF01F8C27B000DBA021 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		E8A8CBF31F8C350F00DBA021 /* AddTruckVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTruckVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			children = (
 				E85EE1061F8BE25600CD24ED /* MainVC.swift */,
 				E8A8CBEF1F8C27B000DBA021 /* LoginVC.swift */,
+				E8A8CBF31F8C350F00DBA021 /* AddTruckVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				E85EE1581F8BED3F00CD24ED /* FoodTruckReview.swift in Sources */,
 				E85EE15A1F8C109500CD24ED /* DataService.swift in Sources */,
 				E8A8CBF11F8C27B000DBA021 /* LoginVC.swift in Sources */,
+				E8A8CBF41F8C350F00DBA021 /* AddTruckVC.swift in Sources */,
 				E85EE15C1F8C125900CD24ED /* Constants.swift in Sources */,
 				E85EE15E1F8C177700CD24ED /* AuthService.swift in Sources */,
 				E85EE1601F8C1F5400CD24ED /* FoodTruckCell.swift in Sources */,

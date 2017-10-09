@@ -15,6 +15,9 @@
 		E85EE11A1F8BE25600CD24ED /* FoodTruck_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EE1191F8BE25600CD24ED /* FoodTruck_FinderTests.swift */; };
 		E85EE12A1F8BE52200CD24ED /* FoodTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EE1291F8BE52200CD24ED /* FoodTruck.swift */; };
 		E85EE1581F8BED3F00CD24ED /* FoodTruckReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EE1571F8BED3F00CD24ED /* FoodTruckReview.swift */; };
+		E85EE15A1F8C109500CD24ED /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EE1591F8C109500CD24ED /* DataService.swift */; };
+		E85EE15C1F8C125900CD24ED /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EE15B1F8C125900CD24ED /* Constants.swift */; };
+		E85EE15E1F8C177700CD24ED /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EE15D1F8C177700CD24ED /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		E85EE11B1F8BE25600CD24ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E85EE1291F8BE52200CD24ED /* FoodTruck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruck.swift; sourceTree = "<group>"; };
 		E85EE1571F8BED3F00CD24ED /* FoodTruckReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckReview.swift; sourceTree = "<group>"; };
+		E85EE1591F8C109500CD24ED /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		E85EE15B1F8C125900CD24ED /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E85EE15D1F8C177700CD24ED /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,8 @@
 		E85EE1241F8BE45900CD24ED /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				E85EE1591F8C109500CD24ED /* DataService.swift */,
+				E85EE15D1F8C177700CD24ED /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -114,6 +122,7 @@
 		E85EE1251F8BE46000CD24ED /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E85EE15B1F8C125900CD24ED /* Constants.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -249,6 +258,9 @@
 				E85EE1051F8BE25600CD24ED /* AppDelegate.swift in Sources */,
 				E85EE12A1F8BE52200CD24ED /* FoodTruck.swift in Sources */,
 				E85EE1581F8BED3F00CD24ED /* FoodTruckReview.swift in Sources */,
+				E85EE15A1F8C109500CD24ED /* DataService.swift in Sources */,
+				E85EE15C1F8C125900CD24ED /* Constants.swift in Sources */,
+				E85EE15E1F8C177700CD24ED /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

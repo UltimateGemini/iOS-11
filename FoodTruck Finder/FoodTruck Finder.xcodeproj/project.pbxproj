@@ -23,6 +23,9 @@
 		E8A8CBF21F8C27B000DBA021 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8A8CBF01F8C27B000DBA021 /* LoginVC.xib */; };
 		E8A8CBF41F8C350F00DBA021 /* AddTruckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A8CBF31F8C350F00DBA021 /* AddTruckVC.swift */; };
 		E8A8CBF61F8C39D700DBA021 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A8CBF51F8C39D700DBA021 /* DetailsVC.swift */; };
+		E8A8CBF81F8C46B400DBA021 /* ReviewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A8CBF71F8C46B400DBA021 /* ReviewsVC.swift */; };
+		E8A8CBFA1F8C477400DBA021 /* AddReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A8CBF91F8C477400DBA021 /* AddReviewVC.swift */; };
+		E8AD33741F8C49DB00F51978 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AD33731F8C49DB00F51978 /* ReviewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		E8A8CBF01F8C27B000DBA021 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		E8A8CBF31F8C350F00DBA021 /* AddTruckVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTruckVC.swift; sourceTree = "<group>"; };
 		E8A8CBF51F8C39D700DBA021 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		E8A8CBF71F8C46B400DBA021 /* ReviewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsVC.swift; sourceTree = "<group>"; };
+		E8A8CBF91F8C477400DBA021 /* AddReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewVC.swift; sourceTree = "<group>"; };
+		E8AD33731F8C49DB00F51978 /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +150,8 @@
 				E8A8CBEF1F8C27B000DBA021 /* LoginVC.swift */,
 				E8A8CBF31F8C350F00DBA021 /* AddTruckVC.swift */,
 				E8A8CBF51F8C39D700DBA021 /* DetailsVC.swift */,
+				E8A8CBF71F8C46B400DBA021 /* ReviewsVC.swift */,
+				E8A8CBF91F8C477400DBA021 /* AddReviewVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -153,6 +161,7 @@
 			children = (
 				E85EE15F1F8C1F5300CD24ED /* FoodTruckCell.swift */,
 				E8A8CBF01F8C27B000DBA021 /* LoginVC.xib */,
+				E8AD33731F8C49DB00F51978 /* ReviewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A8CBFA1F8C477400DBA021 /* AddReviewVC.swift in Sources */,
 				E85EE1071F8BE25600CD24ED /* MainVC.swift in Sources */,
 				E85EE1051F8BE25600CD24ED /* AppDelegate.swift in Sources */,
 				E85EE12A1F8BE52200CD24ED /* FoodTruck.swift in Sources */,
@@ -278,9 +288,11 @@
 				E8A8CBF11F8C27B000DBA021 /* LoginVC.swift in Sources */,
 				E8A8CBF41F8C350F00DBA021 /* AddTruckVC.swift in Sources */,
 				E85EE15C1F8C125900CD24ED /* Constants.swift in Sources */,
+				E8A8CBF81F8C46B400DBA021 /* ReviewsVC.swift in Sources */,
 				E85EE15E1F8C177700CD24ED /* AuthService.swift in Sources */,
 				E85EE1601F8C1F5400CD24ED /* FoodTruckCell.swift in Sources */,
 				E8A8CBF61F8C39D700DBA021 /* DetailsVC.swift in Sources */,
+				E8AD33741F8C49DB00F51978 /* ReviewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

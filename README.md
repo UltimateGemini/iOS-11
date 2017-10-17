@@ -1,5 +1,6 @@
 # iOS-11
-Welcome, Here's a collection of iPhone Apps I built demonstrating my understanding of the new features that come in iOS 11 & Swift 4.
+Welcome, Here's a collection of iPhone Apps I built. Chronologically ordered by the most recent project above. Some Apps demonstrating the new features that come in iOS 11 & Swift 4. 
+
 
 
 
@@ -13,7 +14,6 @@ This is the iOS version of the Food Truck Finder App that is also built for [And
 * [CoreLocation](https://developer.apple.com/documentation/corelocation)
 * [Table View](https://developer.apple.com/documentation/uikit/uitableviewcontroller/1614753-tableview) - Adding Table views.
 * [UIAlert](https://developer.apple.com/documentation/uikit/uialertcontroller)
-
 
 
 
